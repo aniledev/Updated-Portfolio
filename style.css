@@ -1,0 +1,73 @@
+/* CSS Declarations for mobile-first view */
+body {
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+div {
+    padding: 20px;
+}
+
+section {
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+
+}
+
+.item-double {
+    flex: 2;
+
+}
+
+.centered {
+    text-align: center;
+}
+
+.padded-image {
+    margin: 5px;
+}
+
+.border {
+    border: 2px solid lightgray;
+    margin: 10px;
+}
+
+
+/* Media query for desktop CSS declarations */
+
+@media all and (min-width: 800px) {
+    .group {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section {
+        padding-bottom: 125px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+
+
+}
