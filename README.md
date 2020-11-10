@@ -1,2 +1,2 @@
-# updatedPortfolio
+# Updated-Portfolio
 An update portfolio and about me page using flexbox
