@@ -126,14 +126,17 @@
             </div>
 
             <div class="item">
-                <h3>Services</h3>
+                <h2>Services</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae aliquid voluptatem, rem magnam tenetur
                     similique? Odio, modi accusamus.</p>
-                <p class="fas fa-camera">App development</p>
+                <i class="fas fa-mobile-alt fa-3x bullet"></i>
+                <p>App development</p>
                 <br>
-                <p class="fas fa-camera">software dvelopment</p>
+                <i class="fas fa-laptop-code fa-3x bullet"></i>
+                <p>software dvelopment</p>
                 <br>
-                <p class="fas fa-camera">Websites</p>
+                <i class="fas fa-window-maximize fa-3x bullet"></i>
+                <p>Websites</p>
 
 
 
@@ -179,13 +182,53 @@
 
         <!-- Content info section -->
         <h2>Contact Info</h2>
-        <section>
+        <section id="contact" class="group">
+            <!-- modify this form HTML and place wherever you want your form -->
+            <div id="form item">
+                <span><i class="far fa-paper-plane fa-5x center"></i></span>
+                <form
+                      action="https://formspree.io/f/xqkglkwd"
+                      method="POST">
+                    <div>
+                        <label>
+                            Email
+                        </label>
+                        <input type="text" name="_replyto" placeholder="youremail@gmail.com">
+
+                    </div>
+                    <div>
+                        <label>
+                            Message
+                        </label>
+                        <textarea name="message" placeholder="OMG! Your site is so awesome!"></textarea>
+                        </label>
+                    </div>
+                    <!-- your other form fields go here -->
+                    <div>
+                        <button type="submit">Send</button>
+                    </div>
+
+                </form>
+
+            </div>
+            <div id="github" class="item border-side">
+                <span><i class="fab fa-github fa-5x center"></i></span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, tempore?</p>
+            </div>
+
+            <div id="linkedin" class="item border-side">
+                <i class="fas fa-users fa-5x center"></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, quaerat.</p>
+            </div>
+
 
         </section>
 
 
 
+
     </main>
+
     <footer></footer>
 
     <script src="script.js">
